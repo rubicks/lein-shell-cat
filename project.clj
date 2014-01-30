@@ -6,5 +6,5 @@
   :dependencies [[org.clojure/clojure "1.5.1"]]
   :main lein-shell-cat.core
   :plugins [[lein-shell "0.3.0"]]
-  :prep-tasks [["shell" "echo" "hello, lein-shell"] "javac" "compile"]
+  :prep-tasks [["shell" "echo" "hello lein-shell"] "javac" "compile"]
   )
