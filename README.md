@@ -1,4 +1,4 @@
-# lein-shell-cat [![Build Status](https://travis-ci.org/rubicks/lein-shell-cat.png)](https://travis-ci.org/rubicks/lein-shell-cat)
+# lein-shell-cat [![Build Status](https://travis-ci.org/rubicks/lein-shell-cat.png?branch=master)](https://travis-ci.org/rubicks/lein-shell-cat)
 
 Can [lein-shell](https://github.com/hyPiRion/lein-shell) play nice with a simple `cat` implementation? It may have an [issue](https://github.com/hyPiRion/lein-shell/issues/13).
 
