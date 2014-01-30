@@ -1,6 +1,6 @@
-(ns lein-shell-cat.core)
+(ns lein-shell-cat.core
+  (:gen-class))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -main [& args]
+  (let [split-events (line-seq (java.io.BufferedReader. (java.io.InputStreamReader. System/in)))]
+    (doseq [event split-events] (println event))))
