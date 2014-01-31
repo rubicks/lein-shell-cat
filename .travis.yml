@@ -9,5 +9,6 @@ jdk:
   - oraclejdk8
 
 script:
-  - echo "hello stdin" | lein2 run
-  - echo "hello stdin" | lein2 trampoline run
+  - echo "hello stdin" | lein2 run            | tee lein-run.txt
+  - echo "hello stdin" | lein2 trampoline run | tee lein-trampoline-run.txt
+  - diff lein-run.txt lein-trampoline-run.txt
